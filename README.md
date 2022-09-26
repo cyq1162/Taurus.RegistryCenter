@@ -1,5 +1,7 @@
-# CYQ.Data.ProjectTool
+# CYQ.Data.ProjectTool<br/>
+源码已迁移到：https://github.com/cyq1162/cyqdata<hr/>
 CYQ.Data 框架的枚举或实体类生成工具。（Build Entity or Enum For CYQ.Data)
+
 <p><strong><span style="color: #ff0000;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Foreword:</span></span></span></strong></p>
 <div class="cnblogs_code"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">I have been reminded by netizens that I want to update </span><span style="vertical-align: inherit;">&nbsp;the enumeration generator </span><span style="vertical-align: inherit;">of&nbsp; </span></span><a href="http://www.cyqdata.com/cyqdata" target="_blank"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">CYQ.Data</span></span></a><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> . Since the V4.5 version, this tool has not released a new version. In fact, I also wrote the enumeration generation of V4.55 version. The main body is not satisfied with the main body, and it has not changed much, so it has not been released.</span></span></div>
 <p>&nbsp;</p>
