@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <AssemblyName>Taurus.RegistryCenter</AssemblyName>
+	  <RootNamespace>Taurus.RegistryCenter</RootNamespace>
+	  <Description>Taurus.RegistryCenter is a high-performance microservice gegistry center for asp.net or asp.net core（适合场景：对性能和并发有较高要求的电商、站点、WebAPI等系统。【开源：https://github.com/cyq1162/Taurus.MVC】</Description>
+	  <Company>路过秋天 （2024-01-21）</Company>
+	  <Authors>路过秋天</Authors>
+	  <Copyright>Copyright ©  路过秋天 2016-2096</Copyright>
+	  <Product>Taurus.Core .NET Core 版本</Product>
+	  <PackageProjectUrl>https://github.com/cyq1162/Taurus.MVC</PackageProjectUrl>
+	  <AssemblyTitle>Taurus.RegistryCenter 微服务注册中心</AssemblyTitle>
+	  <AssemblyVersion>3.3.0.1</AssemblyVersion>
+	  <FileVersion>3.3.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Taurus.MVC" Version="3.3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Views\" />
+  </ItemGroup>
+
+</Project>
