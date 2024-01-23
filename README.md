@@ -1,16 +1,16 @@
 # Taurus.RegistryCenter is a microservice registry center for asp.net or asp.net core.
 <h3>【 <a href='./README.md'>中文</a> | <a href='./README_en.md'>English</a>】</h3>
 <hr />
-# Taurus.RegistryCenter 微服注册中心，使用 .Net Core 示例：
+# Taurus.RegistryCenter 微服务注册中心，使用 .Net Core 示例：
 <h4>1、以 Docker 中拉取镜像运行：</h4>
 <p>下载镜像，当前【2024-01-23 发布的版本是3.3.0.1】：</p>
 <pre><code>docker pull registry.cn-hangzhou.aliyuncs.com/taurus-netcore/taurus.registrycenter:3.3.0.1</code></pre>
 <p>下载完成后，查看已下载的镜像列表：</p>
 <pre><code>docker images</code></pre>
 <p><img src="https://img2024.cnblogs.com/blog/17408/202401/17408-20240123174039876-329377314.png" alt="" loading="lazy" /></p>
-<p>运行容器，映射对外使用80和443端口【默认镜像中的应用打包运行的监听端口为：8080 和 443】：</p>
+<p>运行容器，内网映射使用8080端口，可不启用443【默认镜像中的应用打包运行的监听端口为：8080 和 443】：</p>
 <p>下面命令行将[ImageID]换成下载的镜像ID</p>
-<pre><code>docker run -d -p 80:8080 -p 443:443 --name=rc --security-opt seccomp=unconfined [ImageID]</code></pre>
+<pre><code>docker run -d -p 8080:8080  --name=rc --security-opt seccomp=unconfined [ImageID]</code></pre>
 <p>启动后，通过以下命令查看容器是否正常运行：</p>
 <pre><code>docker ps -a </code></pre>
 
